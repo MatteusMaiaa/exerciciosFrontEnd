@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: bisque;
+}
+
+h1{
+    justify-content: center;
+}
+
+img {
+    border-radius: 240px;
+    
+}
+
+p {
+
+}
