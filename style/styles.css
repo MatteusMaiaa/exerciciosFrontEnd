@@ -72,15 +72,24 @@ a{
 }
 
 #div-a a {
-    display: flex;             /* transforma o link em flex */
+    display: flex;                 
     align-items: center; 
-    justify-content: center;      /* alinha verticalmente texto + img */
-                 /* espaço entre imagem e texto */
+    justify-content: center;      
+                                   
 }
 
-#a2 {
+#a2 {                                                                                                   
     color: blue;
-    
+}
+
+#a1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#a2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #section-main {
@@ -90,5 +99,35 @@ a{
     justify-content: center;
 }
 
+@media (max-width:800px) {
+    main {
+        background-color: black;
+        color: white;
+    }
+
+    header {
+        background-color: white;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    p{
+        color: white;
+    }
+
+    #div-a{
+        border:solid white;
+    }
+
+    #a1 {
+        color: white;
+    }
+
+    
+    
+
+}
 
    
